@@ -77,8 +77,8 @@ const BookDetails: React.FC = () => {
             className='book-image'
           />
         }
-        <div className='w-[720px] ml-1 md:mr-[2rem] lg:mr-[4rem] border'>&nbsp;</div>
-        <div className='flex flex-col mt-3 ml-1 mb-6 h-[105px]'>
+        <div className='w-[320px]'>&nbsp;</div>
+        <div className='flex flex-col mt-3 mb-6 h-[105px] flex-1'>
           <div className="font-[700] text-[34px] text-[#555555] leading-10">{book?.name}</div>
           <div className='font-[400] text-[#757575] text-[14px] mt-2 ml-1'>{book?.author.name}</div>
         </div>

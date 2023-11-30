@@ -16,43 +16,33 @@ No desenvolvimento desta aplicação foram utilizadas as seguintes tecnologias:
 ## Demonstração Online
 
 A demonstração está  hospedada na AWS, no seguinte endereço:
-<a href="http://todolist.daniloantunes.dev.br" target="_blank">aqui</a>.
+<a href="http://ssbook.s3-website-sa-east-1.amazonaws.com" target="_blank">aqui</a>.
 
-## Download
-
-```bash
-# Clonar o repositório
-$ git clone https://github.com/antunesdanilo/todolist
-
-# Instalar as dependências do backend
-$ cd backend && npm install
-
-# Instalar as dependências do frontend
-$ cd frontend && npm install
-```
-
-## Instalação local
+## Download e instalação
 
 Pré-requisitos
 
 NodeJS<br/>
-NPM
+NPM ou yarn
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/antunesdanilo/todolist
+$ git clone https://github.com/antunesdanilo/react-ssbook
 
 # Entrar no diretório do projeto
 $ cd todolist
 
-# Iniciar o backend
-$ cd backend && npm run dev
+# Instalar as dependências com npm
+$ npm install
 
-# Iniciar o frontend
-$ cd frontend && npm start
+# Instalar as dependências com npm
+$ yarn
+
+# Iniciar a aplicação
+$ yarn start
 ```
 
-Acessar <a href="http://localhost:3001" target="_blank">localhost:3001</a>
+Acessar <a href="http://localhost:3000" target="_blank">localhost:3000</a>
 
 ---
 Desenvolvido por @DaniloAntunes - 2023
