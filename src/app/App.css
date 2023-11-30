@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Roboto; 
+}
+
+body {
+  scrollbar-width: thin;
+  background: #F7F7F7;
+}
+
+&::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+&::-webkit-scrollbar-track {
+  background: #EEE;
+}
+/* Handle */
+&::-webkit-scrollbar-thumb {
+  background: #DDD;
+  border-radius: 10px;
+}
+/* Handle on hover */
+&::-webkit-scrollbar-thumb:hover {
+  background: #CCC;
+}
